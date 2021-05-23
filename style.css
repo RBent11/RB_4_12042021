@@ -19,6 +19,10 @@ a:hover {
     cursor: pointer;
 }
 
+*:focus{
+    border: 4px solid blue!important;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -42,6 +46,10 @@ header{
 footer{
     background-color: #F3976C;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .bloc {
@@ -293,6 +301,7 @@ footer{
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+  
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -694,7 +703,7 @@ a {
 }
 
 .red__title{
-    color: red!important;
+    color: white!important;
 }
 
 .container {
@@ -744,11 +753,14 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    background-color: red;
+    margin: auto auto auto auto;
     
+}
+
+.icon-md{
+   
+    font-size: 30px!important;
+
 }
 
 
@@ -777,6 +789,12 @@ h4 {
     color: #333333!important;
 }
 
+
+.adresse{
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -800,7 +818,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.8);
+    background-color: rgba(117, 108, 81, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -831,7 +849,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1076,6 +1094,15 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .icon-md{
+        margin: 10px 30px;
     }
 }
 
