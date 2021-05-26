@@ -42,6 +42,12 @@ footer {
     align-items: center;
 }
 
+iframe{
+    width:400px;
+    height:300px;
+    border:0;
+}
+
 .bloc {
     width: 100%;
     clear: both;
